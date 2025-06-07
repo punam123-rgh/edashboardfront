@@ -1,0 +1,54 @@
+.nav-ul li{
+    display:inline-block;
+    padding: 10px;
+}
+.login,.product{
+    margin-left: 30px;
+    margin-top: 100px;
+}
+.inputBox{
+    display:block;
+    margin: 25px;
+    padding:7px;
+    width:300px;
+    border: 1px solid skyblue;
+}
+.signButton{
+   margin: 25px; 
+   padding: 10px;
+   width: 150px;
+   background-color: skyblue;
+   border: 1px solid;
+   cursor: pointer;
+}
+.logos{
+    size: 30px;
+
+ 
+}
+.invalidinput{
+    color: red;
+    margin: -20px;
+    display: block;
+    margin-left: 20px;
+}
+.product-list
+{
+text-align: center;
+margin-top: 50px;
+}
+.product-list ul li{
+    display: inline-block;
+    border: 1px solid skyblue;
+    padding: 5px;
+    width: 150px;
+}
+.product-list ul{
+    margin: 0;
+}
+.search-product-Box {
+    width: 400px;
+    margin: 20px;
+    border:1px solid skyblue ;
+    padding-left:20px ;
+} 
