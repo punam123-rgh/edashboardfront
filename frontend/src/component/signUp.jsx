@@ -9,7 +9,7 @@ const SignUp = () =>{
     
     const collectData =async () =>{
         console.log(name, email ,password,)
-        let result = await fetch('http://localhost:5000/register',
+        let result = await fetch('http://localhost:5000/apiuser/user',
             {
                 method:'post',
                 body:JSON.stringify ({name,email,password}),
